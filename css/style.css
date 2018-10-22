@@ -28,7 +28,6 @@ h1 a { color:#d8d8d8; }
 h1 a:hover { text-decoration:none; }
 h1 a:visited { color:#d8d8d8; }
 section {
-	margin:2em auto;
 	width:95%;
 }
 section > h3 {
@@ -54,11 +53,21 @@ li { padding:.3em 0; }
 	margin:0 0.6em 1em
 }
 .text-area {
-	width: 100%;
-	padding-left: 18em ;
-    font-size:18px;
+	
+    width: 100%;
+	padding-left: 12em ;
+    font-size:17px;
     
 }
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 870px;
+    padding-left: 10%;
+  
+}
+
 .button {0
 	padding:1em;
 	color:#d8d8d8;	
